@@ -70,7 +70,7 @@ void DialogMainUser::paintEvent(QPaintEvent *event)
     QPainter painter(this);
     painter.setPen(QPen(Qt::black, 1, Qt::SolidLine, Qt::FlatCap));
     QImage pic1(width(),height(),QImage::Format_RGB32);
-    QString map= QString("C:/Users/Tatyana/Desktop/все/3 курс/Курсовая работа/%1.png").arg(map_name);
+    QString map= QString(":/images/Ресурсы/%1.png").arg(map_name);
     pic1.load(map);
     painter.drawImage(0,10,pic1);
     if (ui->pushButton_3->isEnabled()){

@@ -1,5 +1,9 @@
 <RCC>
     <qresource prefix="/images">
         <file>Ресурсы/mainicon.png</file>
+        <file>Ресурсы/kazan.png</file>
+        <file>Ресурсы/moscow.png</file>
+        <file>Ресурсы/saint-peterburg.png</file>
+        <file>Ресурсы/samara.png</file>
     </qresource>
 </RCC>
